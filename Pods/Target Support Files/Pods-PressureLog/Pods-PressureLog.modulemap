@@ -1,0 +1,6 @@
+framework module Pods_PressureLog {
+  umbrella header "Pods-PressureLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

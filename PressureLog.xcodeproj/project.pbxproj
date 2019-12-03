@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058F32D0228810E000711629 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F32CF228810E000711629 /* AppDelegate.swift */; };
+		058F32D2228810E000711629 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F32D1228810E000711629 /* ViewController.swift */; };
+		058F32D5228810E000711629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058F32D3228810E000711629 /* Main.storyboard */; };
+		058F32D7228810E100711629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058F32D6228810E100711629 /* Assets.xcassets */; };
+		058F32DA228810E100711629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058F32D8228810E100711629 /* LaunchScreen.storyboard */; };
+		058F32E5228810E100711629 /* PressureLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F32E4228810E100711629 /* PressureLogTests.swift */; };
+		058F32F0228810E100711629 /* PressureLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F32EF228810E100711629 /* PressureLogUITests.swift */; };
+		058F32FE228812A700711629 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058F32FD228812A700711629 /* CoreLocation.framework */; };
+		3FE96EB23574DE1ABFF28883 /* Pods_PressureLogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970300595B7D50661155B109 /* Pods_PressureLogTests.framework */; };
+		72AE62581EC31103C233A31E /* Pods_PressureLogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE213E1B7F9EB164A5C363A /* Pods_PressureLogUITests.framework */; };
+		FEC2FFCB155810AA7BCFB843 /* Pods_PressureLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240910EAFEF104691A9126C3 /* Pods_PressureLog.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		058F32E1228810E100711629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058F32C4228810E000711629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058F32CB228810E000711629;
+			remoteInfo = PressureLog;
+		};
+		058F32EC228810E100711629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058F32C4228810E000711629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058F32CB228810E000711629;
+			remoteInfo = PressureLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058F32CC228810E000711629 /* PressureLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PressureLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		058F32CF228810E000711629 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		058F32D1228810E000711629 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		058F32D4228810E000711629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		058F32D6228810E100711629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		058F32D9228810E100711629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		058F32DB228810E100711629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058F32E0228810E100711629 /* PressureLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PressureLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		058F32E4228810E100711629 /* PressureLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureLogTests.swift; sourceTree = "<group>"; };
+		058F32E6228810E100711629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058F32EB228810E100711629 /* PressureLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PressureLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		058F32EF228810E100711629 /* PressureLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureLogUITests.swift; sourceTree = "<group>"; };
+		058F32F1228810E100711629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058F32FD228812A700711629 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		240910EAFEF104691A9126C3 /* Pods_PressureLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PressureLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		300EC86A1D07691FB0D1058B /* Pods-PressureLogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PressureLogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PressureLogTests/Pods-PressureLogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56EB71C061D9E8F7DE7296BC /* Pods-PressureLogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PressureLogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PressureLogUITests/Pods-PressureLogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B0601659C2036C8F59585A1 /* Pods-PressureLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PressureLog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PressureLog/Pods-PressureLog.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE213E1B7F9EB164A5C363A /* Pods_PressureLogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PressureLogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		970300595B7D50661155B109 /* Pods_PressureLogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PressureLogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B373ADA7334478E10980A1BA /* Pods-PressureLogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PressureLogUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PressureLogUITests/Pods-PressureLogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCC94A28836AC1465792E512 /* Pods-PressureLogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PressureLogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PressureLogTests/Pods-PressureLogTests.release.xcconfig"; sourceTree = "<group>"; };
+		E01A1DC21791B535CB17BF53 /* Pods-PressureLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PressureLog.release.xcconfig"; path = "Pods/Target Support Files/Pods-PressureLog/Pods-PressureLog.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		058F32C9228810E000711629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058F32FE228812A700711629 /* CoreLocation.framework in Frameworks */,
+				FEC2FFCB155810AA7BCFB843 /* Pods_PressureLog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058F32DD228810E100711629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE96EB23574DE1ABFF28883 /* Pods_PressureLogTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058F32E8228810E100711629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE62581EC31103C233A31E /* Pods_PressureLogUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058F32C3228810E000711629 = {
+			isa = PBXGroup;
+			children = (
+				058F32CE228810E000711629 /* PressureLog */,
+				058F32E3228810E100711629 /* PressureLogTests */,
+				058F32EE228810E100711629 /* PressureLogUITests */,
+				058F32CD228810E000711629 /* Products */,
+				C780FED9A13A02542FF24387 /* Pods */,
+				9EF33708569165365C590845 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		058F32CD228810E000711629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				058F32CC228810E000711629 /* PressureLog.app */,
+				058F32E0228810E100711629 /* PressureLogTests.xctest */,
+				058F32EB228810E100711629 /* PressureLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		058F32CE228810E000711629 /* PressureLog */ = {
+			isa = PBXGroup;
+			children = (
+				058F32CF228810E000711629 /* AppDelegate.swift */,
+				058F32D1228810E000711629 /* ViewController.swift */,
+				058F32D3228810E000711629 /* Main.storyboard */,
+				058F32D6228810E100711629 /* Assets.xcassets */,
+				058F32D8228810E100711629 /* LaunchScreen.storyboard */,
+				058F32DB228810E100711629 /* Info.plist */,
+			);
+			path = PressureLog;
+			sourceTree = "<group>";
+		};
+		058F32E3228810E100711629 /* PressureLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				058F32E4228810E100711629 /* PressureLogTests.swift */,
+				058F32E6228810E100711629 /* Info.plist */,
+			);
+			path = PressureLogTests;
+			sourceTree = "<group>";
+		};
+		058F32EE228810E100711629 /* PressureLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				058F32EF228810E100711629 /* PressureLogUITests.swift */,
+				058F32F1228810E100711629 /* Info.plist */,
+			);
+			path = PressureLogUITests;
+			sourceTree = "<group>";
+		};
+		9EF33708569165365C590845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				058F32FD228812A700711629 /* CoreLocation.framework */,
+				240910EAFEF104691A9126C3 /* Pods_PressureLog.framework */,
+				970300595B7D50661155B109 /* Pods_PressureLogTests.framework */,
+				8BE213E1B7F9EB164A5C363A /* Pods_PressureLogUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C780FED9A13A02542FF24387 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B0601659C2036C8F59585A1 /* Pods-PressureLog.debug.xcconfig */,
+				E01A1DC21791B535CB17BF53 /* Pods-PressureLog.release.xcconfig */,
+				300EC86A1D07691FB0D1058B /* Pods-PressureLogTests.debug.xcconfig */,
+				DCC94A28836AC1465792E512 /* Pods-PressureLogTests.release.xcconfig */,
+				56EB71C061D9E8F7DE7296BC /* Pods-PressureLogUITests.debug.xcconfig */,
+				B373ADA7334478E10980A1BA /* Pods-PressureLogUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		058F32CB228810E000711629 /* PressureLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058F32F4228810E100711629 /* Build configuration list for PBXNativeTarget "PressureLog" */;
+			buildPhases = (
+				02F3153609C872D775F3E72F /* [CP] Check Pods Manifest.lock */,
+				058F32C8228810E000711629 /* Sources */,
+				058F32C9228810E000711629 /* Frameworks */,
+				058F32CA228810E000711629 /* Resources */,
+				7F27C5493EF44E0F2BC79B96 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PressureLog;
+			productName = PressureLog;
+			productReference = 058F32CC228810E000711629 /* PressureLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		058F32DF228810E100711629 /* PressureLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058F32F7228810E100711629 /* Build configuration list for PBXNativeTarget "PressureLogTests" */;
+			buildPhases = (
+				BC580CE0CDE3234BED23F277 /* [CP] Check Pods Manifest.lock */,
+				058F32DC228810E100711629 /* Sources */,
+				058F32DD228810E100711629 /* Frameworks */,
+				058F32DE228810E100711629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058F32E2228810E100711629 /* PBXTargetDependency */,
+			);
+			name = PressureLogTests;
+			productName = PressureLogTests;
+			productReference = 058F32E0228810E100711629 /* PressureLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		058F32EA228810E100711629 /* PressureLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058F32FA228810E100711629 /* Build configuration list for PBXNativeTarget "PressureLogUITests" */;
+			buildPhases = (
+				39AE2F7123CD69673D751B36 /* [CP] Check Pods Manifest.lock */,
+				058F32E7228810E100711629 /* Sources */,
+				058F32E8228810E100711629 /* Frameworks */,
+				058F32E9228810E100711629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058F32ED228810E100711629 /* PBXTargetDependency */,
+			);
+			name = PressureLogUITests;
+			productName = PressureLogUITests;
+			productReference = 058F32EB228810E100711629 /* PressureLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058F32C4228810E000711629 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = tanakasouta;
+				TargetAttributes = {
+					058F32CB228810E000711629 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					058F32DF228810E100711629 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 058F32CB228810E000711629;
+					};
+					058F32EA228810E100711629 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 058F32CB228810E000711629;
+					};
+				};
+			};
+			buildConfigurationList = 058F32C7228810E000711629 /* Build configuration list for PBXProject "PressureLog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 058F32C3228810E000711629;
+			productRefGroup = 058F32CD228810E000711629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				058F32CB228810E000711629 /* PressureLog */,
+				058F32DF228810E100711629 /* PressureLogTests */,
+				058F32EA228810E100711629 /* PressureLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		058F32CA228810E000711629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058F32DA228810E100711629 /* LaunchScreen.storyboard in Resources */,
+				058F32D7228810E100711629 /* Assets.xcassets in Resources */,
+				058F32D5228810E000711629 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058F32DE228810E100711629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058F32E9228810E100711629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02F3153609C872D775F3E72F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PressureLog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39AE2F7123CD69673D751B36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PressureLogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F27C5493EF44E0F2BC79B96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PressureLog/Pods-PressureLog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PressureLog/Pods-PressureLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC580CE0CDE3234BED23F277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PressureLogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058F32C8228810E000711629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058F32D2228810E000711629 /* ViewController.swift in Sources */,
+				058F32D0228810E000711629 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058F32DC228810E100711629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058F32E5228810E100711629 /* PressureLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058F32E7228810E100711629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058F32F0228810E100711629 /* PressureLogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		058F32E2228810E100711629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058F32CB228810E000711629 /* PressureLog */;
+			targetProxy = 058F32E1228810E100711629 /* PBXContainerItemProxy */;
+		};
+		058F32ED228810E100711629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058F32CB228810E000711629 /* PressureLog */;
+			targetProxy = 058F32EC228810E100711629 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		058F32D3228810E000711629 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058F32D4228810E000711629 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		058F32D8228810E100711629 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058F32D9228810E100711629 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		058F32F2228810E100711629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		058F32F3228810E100711629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		058F32F5228810E100711629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0601659C2036C8F59585A1 /* Pods-PressureLog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCS25MS9UH;
+				INFOPLIST_FILE = PressureLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanakasouta.PressureLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		058F32F6228810E100711629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E01A1DC21791B535CB17BF53 /* Pods-PressureLog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCS25MS9UH;
+				INFOPLIST_FILE = PressureLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanakasouta.PressureLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		058F32F8228810E100711629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300EC86A1D07691FB0D1058B /* Pods-PressureLogTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCS25MS9UH;
+				INFOPLIST_FILE = PressureLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanakasouta.PressureLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PressureLog.app/PressureLog";
+			};
+			name = Debug;
+		};
+		058F32F9228810E100711629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC94A28836AC1465792E512 /* Pods-PressureLogTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCS25MS9UH;
+				INFOPLIST_FILE = PressureLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanakasouta.PressureLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PressureLog.app/PressureLog";
+			};
+			name = Release;
+		};
+		058F32FB228810E100711629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56EB71C061D9E8F7DE7296BC /* Pods-PressureLogUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCS25MS9UH;
+				INFOPLIST_FILE = PressureLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanakasouta.PressureLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PressureLog;
+			};
+			name = Debug;
+		};
+		058F32FC228810E100711629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B373ADA7334478E10980A1BA /* Pods-PressureLogUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCS25MS9UH;
+				INFOPLIST_FILE = PressureLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanakasouta.PressureLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PressureLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058F32C7228810E000711629 /* Build configuration list for PBXProject "PressureLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058F32F2228810E100711629 /* Debug */,
+				058F32F3228810E100711629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058F32F4228810E100711629 /* Build configuration list for PBXNativeTarget "PressureLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058F32F5228810E100711629 /* Debug */,
+				058F32F6228810E100711629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058F32F7228810E100711629 /* Build configuration list for PBXNativeTarget "PressureLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058F32F8228810E100711629 /* Debug */,
+				058F32F9228810E100711629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058F32FA228810E100711629 /* Build configuration list for PBXNativeTarget "PressureLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058F32FB228810E100711629 /* Debug */,
+				058F32FC228810E100711629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 058F32C4228810E000711629 /* Project object */;
+}
